@@ -6,7 +6,7 @@ const PASSWORD = process.env.password;
 export default function (req, res) {
   let nodemailer = require('nodemailer')
   const transporter = nodemailer.createTransport(smtpTransport({
-    port: 465,
+    port: 466,
     secure: false,
     host: "server259.web-hosting.com",
     auth: {
